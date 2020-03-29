@@ -1,0 +1,118 @@
+h1,h3{
+  text-align:center;
+  font-family:arial,monospace;
+  margin-left:20px;
+  text-decoration: none;
+
+
+}
+h1{
+/*  border-bottom:2px solid #FAFAFA; */
+  margin-right:60px;
+  padding:40px;
+text-decoration: none;
+  }
+
+ul{
+  list-style:none;
+  text-align:center;
+
+  font-family: arial;
+
+  line-height:7;
+  margin-right:50px;
+}
+
+body{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  margin:0%;
+  padding:0%;
+}
+.container{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  margin:0%;
+  padding:0%;
+  border:1px solid black;
+}
+header{
+  border-bottom:2px solid gold;
+  padding-left:20px;
+  background-color:black;
+  /*background-image:url("gea.jpg");*/
+  background-size:cover;
+  background-position:left;
+  text-decoration: none;
+
+}
+.content{
+  display:flex;
+}
+/*
+ .content nav{
+  border-right:1px solid gray;
+  padding:0px;
+  margin:0px;
+  width:100px;
+}*/
+nav.aside{
+  flex-basis: 150px;
+  flex-shrink:0;
+}
+main{
+  padding:0px;
+  width:100%;
+  background-color:black;
+  /*background-image:url("ssss.png");*/
+  background-size:cover;
+}
+
+
+
+footer{
+  border-top:4px solid green;
+  padding:30px;
+  text-align:center;
+
+}
+#topmenu {
+  height: 30px;
+  width:1800px; /*이부분은 직접 개발자매뉴 들어가서 화면크기 보고 하면됨.
+  아니면 100%라고 해두면 그냥 알아서 화면 크기조절할떄마다 바뀜*/
+
+}
+#topmenu ul li {
+  list-style:none;
+  color:gold;
+  background-color:black;
+  float:left;
+  line-height:30px;
+  verticle-align:middle;
+  text-align:center;
+
+}
+#topmenu .menuLink{
+  text-decoration:none;
+  color:white;
+  display:block;
+  width:150px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Dotum, Arial;
+}
+#topmenu .menuLink:hover{
+  color:red;
+  background-color:gray;
+}
+#main2{
+  border-top:1px solid white;
+  color:gold;
+  width: 100%;
+  height:100%;
+  background-color: black;
+  text-align: center;
+
+}
